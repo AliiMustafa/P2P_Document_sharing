@@ -15,6 +15,10 @@ python-multipart = "^0.0.20"
 passlib = {extras = ["bcrypt"], version = "^1.7.4"}
 python-jose = "^3.4.0"
 dotenv = "^0.9.9"
+uvicorn = "^0.34.2"
+aiofiles = "^24.1.0"
+asyncmy = "^0.2.10"
+aiomysql = "^0.2.0"
 
 
 [build-system]
