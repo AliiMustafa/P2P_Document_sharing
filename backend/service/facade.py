@@ -47,7 +47,7 @@ class P2PRepositoryFacade:
             data={"sub": user.id, "username": user.username}, expires_delta=access_token_expires
         )
 
-        return LoginResponse(access_token=access_token, token_type="bearer")
+        return LoginResponse(access_token=access_token)
     
 
     async def upload_document(self, db: AsyncSession, file: UploadFile, user: User) -> Document:

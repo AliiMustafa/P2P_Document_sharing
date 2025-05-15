@@ -7,7 +7,6 @@ class SignupResponse(BaseModel):
 
 class LoginResponse(BaseModel):
     access_token: str
-    token_type: str
 
 class SignupRequest(BaseModel):
     username: str
