@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "p2p-document-sharing"
+version = "0.1.0"
+description = ""
+authors = ["AliiMustafa <aliimustafazada@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^2.0.41"
+fastapi = "^0.115.12"
+pymysql = "^1.1.1"
+alembic = "^1.15.2"
+python-multipart = "^0.0.20"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+python-jose = "^3.4.0"
+dotenv = "^0.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
